@@ -17,7 +17,7 @@ main:
     url: '#talks'
     weight: 40
   - name: 文献
-    url: '#featured'
+    url: '#publications'
     weight: 50
   - name: 联系
     url: '#contact'

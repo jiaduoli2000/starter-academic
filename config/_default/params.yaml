@@ -15,45 +15,45 @@ font_size: L
 site_type: Person
 local_business_type: ''
 org_name: ''
-description: ''
+description: '阿狸医生的个人博客网站，主要关注：医学知识、论文写作、临床研究,外科技术等专业知识。'
 twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
-address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
-  country_code: US
-coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com'
+email: bettermost@yeah.net
+#phone: 888 888 88 88
+#address:
+  #street: 450 Serra Mall
+  #city: Stanford
+  #region: CA
+  #postcode: '94305'
+  #country: United States
+  #country_code: US
+#coordinates:
+  #latitude: '37.4275'
+  #longitude: '-122.1697'
+#directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+#office_hours:
+  #- 'Monday 10:00 to 13:00'
+  #- 'Wednesday 09:00 to 10:00'
+#appointment_url: 'https://calendly.com'
 contact_links:
-  - icon: twitter
+  - icon: #twitter
+    icon_pack: #fab
+    name: #DM Me
+    link: #'https://twitter.com/Twitter'
+  - icon: #skype
+    icon_pack: #fab
+    name: #Skype Me
+    link: #'skype:echo123?call'
+  - icon: weixin
     icon_pack: fab
-    name: DM Me
-    link: 'https://twitter.com/Twitter'
-  - icon: skype
-    icon_pack: fab
-    name: Skype Me
-    link: 'skype:echo123?call'
-  - icon: keybase
-    icon_pack: fab
-    name: Chat on Keybase
-    link: 'https://keybase.io/'
-  - icon: comments
-    icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+    name: 微信公众号
+    link: 'https://mp.weixin.qq.com/s?__biz=MzI2NjgwNTMxNA==&mid=2247486121&idx=1&sn=c7a64982c5bacd28c8d6116afeb92ab5&chksm=ea89c384ddfe4a923750a3a826e3dd8d7b98cda4482c6385832a72b618262d376d36ee3d2995&token=658830271&lang=zh_CN#rd/'
+  - icon: #comments
+    icon_pack: #fas
+    name: #Discuss on Forum
+    link: #'https://discourse.gohugo.io'
 
 # Site header
 

@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 70
 
-title: 杂谈
+title: 天涯
 subtitle:
 
 content:

@@ -7,13 +7,13 @@ main:
   - name: 首页
     url: '#about'
     weight: 10
-  - name: 见闻
+  - name: 知乎
     url: '#posts'
     weight: 20
-  - name: 项目
+  - name: 开源
     url: '#projects'
     weight: 30
-  - name: 杂谈
+  - name: 天涯
     url: '#talks'
     weight: 40
   - name: 文献

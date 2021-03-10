@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 60
 
-title: 知识
+title: 知乎
 subtitle:
 
 content:

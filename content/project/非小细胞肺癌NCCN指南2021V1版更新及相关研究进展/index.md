@@ -1,25 +1,29 @@
 ---
-title: 非小细胞肺癌NCCN指南2021V1版更新及相关研究进展
+title: 非小细胞肺癌指南2021V1版更新(NCCN)
 summary: #原发性肺癌是中国发病率和死亡率最高的恶性肿瘤,2015年中国肺癌新发病例约78.7万例，死亡病例约63.1万例。由于侵袭性高，且缺乏有效的早期发现手段，导致中国大部分肺癌患者就诊时已是IV期。化疗是治疗IV期肺癌的基石，但疗效不佳。近年来，随着分子靶向治疗、免疫治疗的飞速发展，IV期肺癌的治疗理念在不断发生变化，患者的生存也得到了很大改善。为了及时反映国内外IV期肺癌治疗的新进展，进一步提高中国IV期肺癌的规范化诊疗水平，中国医师协会肿瘤医师分会组织专家制定了《IV期原发性肺癌中国治疗指南(2020年版)》。
 tags:
 - 指南
+- 肺癌
+- 非小细胞
+- 2021
+- NCCN
 date: "20201-01-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: #
   focal_point: Smart
 
-lin
+links:
 - icon: twitter
   icon_pack: fab
   name: Follow
   url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: "http://www.sysush.com/sites/default/files/%E8%82%BF%E7%98%A4%E7%A7%91%E5%B0%8F%E8%AE%B2%E8%AF%BE.pdf"
-url_slides: ""
+url_slides: "非小细胞肺癌NCCN指南2021V1版更新及相关研究进展"
 url_video: ""
 
 # Slides (optional).

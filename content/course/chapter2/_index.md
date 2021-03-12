@@ -1,13 +1,13 @@
 ---
 # Title, summary, and page position.
-linktitle: Chapter 2
-summary: Learn how to use Academic's docs layout for publishing online courses, software documentation, and tutorials.
+linktitle: 软件使用
+summary: 学习各种软件的用法及使用技巧，包括安装、使用、组合使用等等。
 weight: 2
 icon: book-reader
 icon_pack: fas
 
 # Page metadata.
-title: Chapter 2
+title: 软件使用
 date: "2018-09-09T00:00:00Z"
 type: book  # Do not modify.
 ---

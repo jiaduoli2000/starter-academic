@@ -10,10 +10,10 @@ main:
   - name: 知乎
     url: '#posts'
     weight: 20
-  - name: 开源
+  - name: 指南
     url: '#projects'
     weight: 30
-  - name: 天涯
+  - name: 动态
     url: '#talks'
     weight: 40
   - name: 文献

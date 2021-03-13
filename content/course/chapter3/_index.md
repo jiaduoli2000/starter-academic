@@ -1,7 +1,7 @@
 ---
 # Title, summary, and page position.
-linktitle: 文献阅读
-summary: Learn how to use Academic's docs layout for publishing online courses, software documentation, and tutorials.
+linktitle: 杂志汇总
+summary: 了解你所在的专业杂志，才能把握当前行业的动态，不然你就是局外人。
 weight: 3
 icon: book-reader
 icon_pack: fas  

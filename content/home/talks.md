@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 70
 
-title: 动态
+title: 动态[#](https://member.bilibili.com/platform/home)
 subtitle:
 
 content:

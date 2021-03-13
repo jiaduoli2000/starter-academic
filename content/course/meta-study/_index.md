@@ -1,6 +1,6 @@
 ---
 # Title, summary, and page position.
-linktitle: 学习meta分析
+linktitle: meta分析
 summary: 要学meta，就认真学，跟谁学，前辈们都给你写好了，你慢慢读吧。
 weight: 2
 icon: book-reader

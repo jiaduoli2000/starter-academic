@@ -8,13 +8,15 @@ weight: 2
 ---
 ![](https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/asset/atypon:cms:attachment:img:d55e6:rev:1613612742610-2428:pii:S0003497520X00038/cover.tif.jpg)
 
-**英文简介：**
+### **英文简介：**
 
 The Annals of Thoracic Surgery provides outstanding original coverage of recent progress in chest and cardiovascular surgery and related fields. As the official journal of two of the largest American associations in its specialty (the Society of Thoracic Surgeons and the Southern Thoracic Surgical Association), this leading monthly enjoys outstanding editorial leadership and maintains rigorous selection standards.
 
-**中文简介：（来自Google、百度翻译）**
+### **中文简介：
 
 《胸外科年鉴》对胸心血管外科及相关领域的最新进展提供了卓越的原始报道。作为美国两大专业协会（胸外科学会和南部胸外科协会）的官方刊物，这一领先的月刊享有杰出的编辑领导地位，并保持严格的选择标准。
+
+### **详情：**
 
 | 期刊ISSN                                                     | 0003-4975                                                    |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |

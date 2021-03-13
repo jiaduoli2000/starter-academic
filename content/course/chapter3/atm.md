@@ -2,19 +2,22 @@
 title: Annals of Thoracic Medicine
 linktitle: ANN THORAC MED
 type: book
+tage: sci杂志
 date: "2019-05-05T00:00:00+01:00"
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 2
 ---
 ![](https://i.loli.net/2021/03/13/wihIHozBRF1mrVf.jpg)
 
-**英文简介：**
+### **英文简介：**
 
 Published by Medknow Publications. ISSN (printed): 1817-1737. ISSN (electronic): 1998-3557. Annals of Thoracic Medicine (ATM) is the official publication of the Saudi Thoracic Socie
 
-**中文简介：（来自Google、百度翻译）**
+### **中文简介：**
 
 由Medknow出版社出版。ISSN（印刷版）：1817-1737。ISSN（电子版）：1998-3557。 《胸科医学年鉴》（ATM）是沙特胸科学会的官方出版物。
+
+### **详情：**
 
 | 期刊ISSN                                                     | 1817-1737                                                    |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |

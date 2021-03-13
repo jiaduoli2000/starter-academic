@@ -22,7 +22,7 @@ links:
   name: Follow
   url: https://twitter.com/georgecushen
 url_code: ""
-url_pdf: "https://zhuanlan.zhihu.com/p/146909804"
+url_pdf: "https://zhuanlan.zhihu.com/p/356759265"
 url_slides: ""
 url_video: ""
 

@@ -23,7 +23,7 @@ links:
   url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: "http://www.sysush.com/sites/default/files/%E8%82%BF%E7%98%A4%E7%A7%91%E5%B0%8F%E8%AE%B2%E8%AF%BE.pdf"
-url_slides: "非小细胞肺癌NCCN指南2021V1版更新及相关研究进展"
+url_slides: "slides/非小细胞肺癌nccn指南2021v1版更新"
 url_video: ""
 
 # Slides (optional).

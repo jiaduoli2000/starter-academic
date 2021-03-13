@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 90
 
-title: 文献
+title: 文献[#](https://mp.weixin.qq.com/cgi-bin/home?t=home/index&lang=zh_CN&token=583735596)
 subtitle: ''
 
 content:

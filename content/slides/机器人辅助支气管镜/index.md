@@ -13,7 +13,7 @@ slides:
   highlight_style: dracula
 ---
 
-![](https://i.loli.net/2021/03/14/4EhsHSKmcjJIGV1.png)
+![1](https://i.loli.net/2021/03/14/4EhsHSKmcjJIGV1.png)
 
 ---
 

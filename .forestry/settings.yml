@@ -54,8 +54,8 @@ sections:
   label: Pages
   create: all
   match: "*"
-upload_dir: ''
-public_path: ''
+upload_dir: home/picture
+public_path: home/picture
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"

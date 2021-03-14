@@ -1,18 +1,15 @@
 ---
-
-# Activate this widget? true/false
-active: false
 # An instance of the Featured widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: featured
 
 # This file represents a page section.
-headless: false
+headless: ture
 
 # Order that this section appears on the page.
 weight: 80
 
-title: 推荐
+title: Notion[#](https://www.notion.so)
 subtitle: ""
 
 content:

@@ -54,10 +54,10 @@ sections:
   label: Pages
   create: all
   match: "*"
-upload_dir: https://res.cloudinary.com/aliyisheng/image
+upload_dir: https://cloudinary.com/console/c-918e4f77ee01fce052bbfcb23436e4/media_library/folders/79afee93ebd520abb854255305ba2bae
 public_path: " https://res.cloudinary.com/aliyisheng/image/upload/c_scale,w_auto:100,dpr_auto"
 front_matter_path: ''
-use_front_matter_path: true
+use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_env:

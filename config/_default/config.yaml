@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: 阿狸的Blog # Website name
-baseurl: 'clinican.online' # Website URL
+baseurl: 'cloudinary_base_url ="https://res.cloudinary.com/aliyisheng”' # Website URL
 copyright: '' # Footer text, e.g. '© {year} Me'
 
 ############################

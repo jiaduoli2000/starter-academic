@@ -1,19 +1,19 @@
 ---
-title: Example Talk
+title: 采用形状感应技术的机器人辅助支气管镜检查
 
-event: Wowchemy Conference
-event_url: https://example.org
+event: 教学视频
+event_url: https://www.bilibili.com/video/BV1SX4y1V7gh/
 
-location: Wowchemy HQ
+location: 哔哩哔哩
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+  street: #450 Serra Mall
+  city: #Stanford
+  region: #CA
+  postcode: #'94305'
+  country: #United States
 
-summary: An example talk using Wowchemy's Markdown slides feature.
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+summary: 使用方法及病例解析.
+abstract: "Ion ™腔内系统是Intuitive公司的新型机器人平台，用以肺部周围的微创活检。该系统采用超薄铰接式机器人导管，可以在各个方向移动180度，导管的外径为3.5毫米，医生可以使用该导管通过小而弯曲的气道，到达肺内任何气道段的结节。Ion ™腔内系统的活检针（Flexision Biopsy Needle）也可利用Ion导管穿过小而弯曲的气道，收集周围肺组织。导管的2mm工作通道还可以容纳其他活组织检查工具，例如活检钳或细胞学刷。"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -22,7 +22,7 @@ date_end: "2030-06-01T15:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2019-01-01T00:00:00Z"
 
 authors: []
 tags: []
@@ -31,8 +31,8 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
+  caption: #'Image credit: [**Unsplash**](https://www.bjcancer.org/Sites/Uploaded/UserUpLoad/20190401/20190401175914.jpg)'
+  focal_point: middle #Right
 
 links:
 - icon: twitter
@@ -60,14 +60,12 @@ projects:
 - example
 ---
 
-{{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}}
+美国机器人辅助微创手术公司Intuitive Surgical（以下简称：Intuitive）的Ion ™腔内系统获得FDA许可。该产品可实现肺部深处微创活检，预计2019年第二季度在美国上市销售。
 
-Slides can be added in a few ways:
+Intuitive Surgical（纳斯达克股票代码：ISRG）成立于1995年，总部设在美国加利福尼亚州桑尼维尔，是一家机器人辅助微创手术公司。2003年3月7日，Intuitive收购Computer Motion公司；2009年6月1日，收购NeoGuide系统；2014年1月22日，以1200万美元收购Luna Innovations - medical applications。
 
-- **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+Intuitive在机器人辅助外科手术及产品研发方面拥有二十多年的经验，旗舰产品有达芬奇®手术系统和Ion ™腔内系统。达芬奇® 手术系统是最先被FDA批准用于一般腹腔镜手术的机器人辅助系统之一，由外科医生控制台、床旁机械臂系统、成像系统三部分组成。
 
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.
+肺癌是世界上高死亡率癌症之一，由于在肺部发现的许多可疑症状很小并且难以检测，早期肺癌难以被诊断并得到有效治疗。Intuitive公司开发了光纤形状传感器技术，为整个活组织检查过程导航，帮助医生确定导管的精确位置和形状信息，从而准确检测肺部疾病。Ion ™腔内系统可以轻松集成到现有的肺结节活检工作流程和现有的成像技术，包括透视、放射状支气管内超声和锥形束CT。  
+
+ Intuitive CEO Gary Guthart表示：“早期诊断出肺癌，可以挽救更多生命，肺癌是全球性的健康挑战，需要新的护理方式。Ion ™腔内系统使医生能够从肺内深处获取组织样本，可以克服肺活检的困难，代表了Intuitive公司对微创护理的创新承诺，让研究方向延伸到手术之外。”

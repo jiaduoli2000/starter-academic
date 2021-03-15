@@ -24,3 +24,5 @@ fields:
   - type: boolean
     name: preview_only
     label: preview_only
+pages:
+- content/post/补体系统的治疗靶向：从罕见疾病到大流行/notion.md

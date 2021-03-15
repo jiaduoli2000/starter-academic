@@ -1,0 +1,26 @@
+---
+label: post模板
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: boolean
+  name: featured
+  label: featured
+- type: field_group
+  name: image
+  label: image
+  fields:
+  - type: textarea
+    name: filename
+    label: filename
+  - type: text
+    name: focal_point
+    label: focal_point
+  - type: boolean
+    name: preview_only
+    label: preview_only

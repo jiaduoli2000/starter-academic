@@ -76,4 +76,4 @@ slides: #example
 ---
 
 [Notion](https://www.notion.so/787a3056cffc42b6b6998f8641acaa8a?v=31019c05280c43418211ae9ec4c65040)
-[CTSNet](example.pdfhttps://www.ctsnet.org/)
+[CTSNet](https://www.ctsnet.org/)

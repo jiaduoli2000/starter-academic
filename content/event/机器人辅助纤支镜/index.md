@@ -35,10 +35,10 @@ image:
   focal_point: middle #Right
 
 links:
-- icon: twitter
+- icon: weibo
   icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
+  name: 流浪狗阿狸
+  url: https://weibo.com/7572590963/profile?topnav=1&wvr=6&is_all=1
 url_code: ""
 url_pdf: ""
 url_slides: "slides/机器人辅助支气管镜"
@@ -69,3 +69,5 @@ Intuitive在机器人辅助外科手术及产品研发方面拥有二十多年�
 肺癌是世界上高死亡率癌症之一，由于在肺部发现的许多可疑症状很小并且难以检测，早期肺癌难以被诊断并得到有效治疗。Intuitive公司开发了光纤形状传感器技术，为整个活组织检查过程导航，帮助医生确定导管的精确位置和形状信息，从而准确检测肺部疾病。Ion ™腔内系统可以轻松集成到现有的肺结节活检工作流程和现有的成像技术，包括透视、放射状支气管内超声和锥形束CT。  
 
  Intuitive CEO Gary Guthart表示：“早期诊断出肺癌，可以挽救更多生命，肺癌是全球性的健康挑战，需要新的护理方式。Ion ™腔内系统使医生能够从肺内深处获取组织样本，可以克服肺活检的困难，代表了Intuitive公司对微创护理的创新承诺，让研究方向延伸到手术之外。”
+
+<iframe src="//player.bilibili.com/player.html?aid=714589793&bvid=BV1SX4y1V7gh&cid=310138127&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"width="100%" height="500"> </iframe>

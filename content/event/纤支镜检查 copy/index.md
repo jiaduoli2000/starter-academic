@@ -2,7 +2,7 @@
 title: 掌握胸外科的纤支镜检查
 
 event: 教学视频
-event_url: https://www.bilibili.com/video/BV1SX4y1V7gh/
+event_url: https://www.bilibili.com/video/BV13K4y1T7iR/
 
 location: 哔哩哔哩
 address:
@@ -12,9 +12,8 @@ address:
   postcode: #'94305'
   country: #United States
 
-summary: 使用方法及病例解析.
-abstract: "Ion ™腔内系统是Intuitive公司的新型机器人平台，用以肺部周围的微创活检。该系统采用超薄铰接式机器人导管，可以在各个方向移动180度，导管的外径为3.5毫米，医生可以使用该导管通过小而弯曲的气道，到达肺内任何气道段的结节。Ion ™腔内系统的活检针（Flexision Biopsy Needle）也可利用Ion导管穿过小而弯曲的气道，收集周围肺组织。导管的2mm工作通道还可以容纳其他活组织检查工具，例如活检钳或细胞学刷。"
-
+summary: 使用方法及技巧.
+abstract: 支气管镜检查是一种内窥镜技术，其用于使气道内部可视化以用于诊断和治疗目的。通常通过鼻子或嘴巴或偶尔通过气管切开术将器械插入气道。这使执业医师可以检查患者的呼吸道是否存在异物，出血，肿瘤或炎症等异常情况。可以从肺部内部获取样本。支气管镜的构造从带有照明设备的刚性金属管到带有实时视频设备的柔性光纤仪器不等。
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: "2030-06-01T13:00:00Z"
@@ -35,13 +34,13 @@ image:
   focal_point: middle #Right
 
 links:
-- icon: twitter
+- icon: 微博
   icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
+  name: 流浪狗阿狸
+  url: https://weibo.com/7572590963/profile?topnav=1&wvr=6&is_all=1
 url_code: ""
 url_pdf: ""
-url_slides: "slides/机器人辅助支气管镜"
+url_slides: #"slides/机器人辅助支气管镜"
 url_video: ""
 
 # Markdown Slides (optional).
@@ -49,7 +48,7 @@ url_video: ""
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: 机器人辅助支气管镜
+slides: #机器人辅助支气管镜
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -60,4 +59,6 @@ projects:
 - example
 ---
 
-<iframe src="https://widgets.figshare.com/articles/7971305/embed?show_title=1" width="568" height="351" allowfullscreen frameborder="0"></iframe>
+<iframe src="//player.bilibili.com/player.html?aid=887172444&bvid=BV13K4y1T7iR&cid=311272679&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"width="100%" height="500" </iframe>
+
+

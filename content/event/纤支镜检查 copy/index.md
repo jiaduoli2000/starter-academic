@@ -34,7 +34,7 @@ image:
   focal_point: middle #Right
 
 links:
-- icon: 微博
+- icon: weibo
   icon_pack: fab
   name: 流浪狗阿狸
   url: https://weibo.com/7572590963/profile?topnav=1&wvr=6&is_all=1

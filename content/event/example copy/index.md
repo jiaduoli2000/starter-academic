@@ -1,19 +1,19 @@
 ---
-title: Example Talk
+title: only视频库
 
-event: Wowchemy Conference
-event_url: https://example.org
+event: 视频库
+event_url: https://jiaduoli2000.cn4.quickconnect.cn/?launchApp=SYNO.SDS.VideoStation.AppInstance&SynoToken=uFA6FQ3rUwbm6#!Home
 
-location: Wowchemy HQ
+location: NAS
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+  street: #450 Serra Mall
+  city: #Stanford
+  region: #CA
+  postcode: #'94305'
+  country: #United States
 
-summary: An example talk using Wowchemy's Markdown slides feature.
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+summary: 由于主流媒体的限制，有价值的医学视频很难得到传播学习#An example talk using Wowchemy's Markdown slides feature.
+abstract: #"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -35,10 +35,10 @@ image:
   focal_point: Right
 
 links:
-- icon: twitter
+- icon: weibo
   icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
+  name: 流浪狗阿狸
+  url: https://weibo.com/7572590963/profile?topnav=1&wvr=6&is_all=1
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -49,7 +49,7 @@ url_video: ""
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: #example
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -60,14 +60,4 @@ projects:
 - example
 ---
 
-{{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}}
 
-Slides can be added in a few ways:
-
-- **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.

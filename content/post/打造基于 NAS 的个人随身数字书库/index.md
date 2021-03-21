@@ -8,7 +8,8 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-
+作者：化学心情下2
+[原文链接](https://sspai.com/post/64202)
 ### **Matrix 首页推荐**
 
 [Matrix](https://sspai.com/matrix) 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。
@@ -143,89 +144,6 @@ OPDS 全称为 Open Publication Distribution System，即开放出版物发行�
 
 这样我们就可以在非家中局域网的环境下，通过浏览器和各种应用来访问自己的在线书库了。
 
-## 在多个平台访问和管理私人书库
-
-现在，我的私人数字书库已经基本搭建完毕，可以通过浏览器在任何地方管理书库，但我希望可以不仅仅只是通过浏览器来进行远程管理和访问，而希望即便是在公司的 PC 上也能管理家中的书库，甚至可以直接在手机上打开书库并下载书籍。
-
-因此我需要解决的问题是如何在外网上安全访问到家中群晖的文件目录。
-
-由于配置上的问题，最终我选择的依旧是通过 SSH / sftp 方式来实现远程的登录访问，首先在群晖中打开「控制面板」-「终端机和 SNMP」，勾选「启动 SSH 功能」并设置一个端口（最好不是 22）。
-
-![img](https://i.loli.net/2021/03/21/lmyDNUfWPurVpxM.png)
-
-然后在「文件服务」中切换到 「FTP」 选项卡，然后勾选 「启动 SFTP 服务」并设置和前面相同的端口号。
-
-![img](https://i.loli.net/2021/03/21/FekQMog5N2qfADn.png)
-
-最后增加一条 frpc 的配置，同样是打开 `frpc.ini` 并新增下面的一段配置并保存，最后重启 frpc 服务使其生效。至于确认是否成功则可以在外网的电脑通过 SSH 终端尝试是否可以登录。
-
-![img](https://i.loli.net/2021/03/21/ivOMro3Ep485Xz2.png)
-
-### 在 PC 上管理 NAS 上的书库
-
-如果不考虑网页端管理，实际上我们在外网 PC 上依旧可以通过 calibre 软件进行管理，但这需要将群晖上相应的路径挂载到文件资源管理器上，这里我通过的是 SFTP 协议进行挂载。
-
-将远程文件路径通过 sftp 协议挂载到文件资源管理器，在 Windows 上最方便的当然是 raidrive。创建驱动器时选择 NAS 下面的 SFTP，然后在地址栏输入 frp 映射的公网 IP 以及映射的端口，输入 NAS 的账号和密码并挂载。成功后你就可以在网络位置上看到新挂载的盘符了。
-
-![img](https://i.loli.net/2021/03/21/ye8IH6UvxD5qnBd.png)
-
-打开 calibre 然后选择「书库」-「切换/创建书库」，定位到 raidrive 生成的新驱动器下的书库目录（我自己的路径是：`X:\book\library`）并将其添加为新的书库目录，这时候你就可以看到 calibre 可以全部载入 NAS 上的书库，并且实现外网直接通过管理。
-
-![img](https://i.loli.net/2021/03/21/YiovVMEQF7duy4p.png)
-
-### 在 Mac 上管理 NAS 上的书库
-
-和 Windows 类似，我们依旧选择的是将群晖的文件目录通过 SFTP 映射到本地的驱动器路径中，这里我选择的工具则是 cloudmounter ，使用的办法可以参考[支持 macOS / Windows，一站式网盘管理工具：CloudMounter](https://sspai.com/post/63683)。
-
-![img](https://i.loli.net/2021/03/21/6qVhMjy3ol7PACB.png)
-
-挂载到访达之后，打开 Mac 上的 calibre，同样是「书库」-「切换/创建书库」，这里选择刚刚挂载上去的群晖文件目录下的 「`book/library`」并且选择「使用当前现有的书库位置作为新的位置」，如果设置恰当，你同样可以在 calibre 看到 NAS 的书库列表，当然管理/增添书等操作也不在话下。
-
-![img](https://i.loli.net/2021/03/21/c91kPaX2HrylWvb.png)
-
-### 在 iPhone/iPad 打开个人数字书库
-
-移动端访问书库则要简单一些，实际上就是使用第三方 App 读取生成的 OPDS 地址来实现在线的书库访问，在 iOS 平台我选择的是 kyreader 这款 App，主要是这款应用满足我的几个需求：可以基于 OPDS 访问书库，同时支持解析 awz3 格式的电子书。
-
-打开 kyreader 后直接点击中间的「目录」来添加书库，输入你的书库名以及对应的 URL（`http://<映射的公网 ip>:<映射的端口地址>/opds`）并添加。然后在弹出的账户验证中输入 calibre web 的用户名以及密码，点击确认后就可以将个人书库添加到目录中了。
-
-![img](https://i.loli.net/2021/03/21/Cz4EgPRZkTAqSif.png)
-
-![img](https://i.loli.net/2021/03/21/1BvhOWJmkFAtsDw.png)
-
-打开书库，在最新添加中就可以看到你的书库目录了，这里我选择一本 azw3 格式的书，然后点击下载就可以下载到手机中，直接点击阅读就可以用 kyreader 进行阅读了。唯一的缺点就是并不支持阅读进度同步（显然这个要求有些太难了）。
-
-![img](https://i.loli.net/2021/03/21/PQZTayMhz1vWKN5.png)
-
-![img](https://i.loli.net/2021/03/21/Y6apEi9xTucRwbX.png)
-
-### 在 Android 设备上打开个人数字书库
-
-相比 iOS 端，在 Android 上访问书库并且阅读 AWZ3 格式的书反而更加麻烦一些，原因是单纯的电子书阅读器在对 azw3 格式的电子书文件存在解析问题（会识别为 bin 数据文件），因此在 Android 上需要通过两款应用来实现我的需求。
-
-首先我需要使用这款名为 [calibre companion](https://play.google.com/store/apps/details?id=com.multipie.calibreandroid) 的应用来实现书库的连接，打开应用点击右上角的 「setting」 进入 「Connecting to calibre」，在 「Content server connection」-「IP address and Port or URL」中输入书库映射出的公网 ip 和端口号。
-
-![img](https://i.loli.net/2021/03/21/FuPZ6WqGODeKpAS.jpg)
-
-![img](https://i.loli.net/2021/03/21/NwpPxrUd1RLDcYC.jpg)
-
-然后在应用首页点击右上角的 「connect」-「to Content Server」并输入书库的用户名和密码完成书库的连接。
-
-![img](https://i.loli.net/2021/03/21/IbMNsBxnrQXy7eK.jpg)
-
-![img](https://i.loli.net/2021/03/21/3HRekivtKdyVGlj.jpg)
-
-calibre companion 连接到书库后并不提供书籍的阅读，因此点击书籍后只会提供meta数据显示或者下载，点击下载之后会将书库的电子书文件保存到 calibre companion 目录下，这时候就需要要使用另一款电子书阅读器[FBReader](https://play.google.com/store/apps/details?id=org.geometerplus.zlibrary.ui.android)进行电子书阅读。
-
-![img](https://i.loli.net/2021/03/21/IP4CibYzU5nTNpv.jpg)
-
-![img](https://i.loli.net/2021/03/21/HJiOamIEcvSgpwG.jpg)
-
-实际上 FBReader 就是用来解析 azw3 格式的电子书，点击侧栏的「选择文件」，然后定位到 calibre companion 的文件目录就可以看到刚才下载的电子书文件了，这时候选中就可以进行阅读了，和 iOS 平台类似，在 Android 平台同样不支持阅读进度的同步。
-
-![img](https://i.loli.net/2021/03/21/5esxhbXoEKNk1Yd.jpg)
-
-![img](https://i.loli.net/2021/03/21/P2qNn1QsXZ9TmrC.jpg)
 
 ## 结语
 

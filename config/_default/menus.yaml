@@ -34,7 +34,7 @@ main:
   - name: Cabibre-web
     url: 'http://106.113.188.127:64544/'
     weight: 100  
-  name: RSS
+  - name: RSS
     url: 'https://feedly.com/i/discover'
     weight: 110  
 

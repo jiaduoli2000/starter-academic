@@ -31,6 +31,12 @@ main:
   - name: Researcher
     url: 'https://www.researcher-app.com/feed/all'
     weight: 90
+  - name: Cabibre-web
+    url: 'http://106.113.188.127:64544/'
+    weight: 100  
+  name: RSS
+    url: 'https://feedly.com/i/discover'
+    weight: 110  
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.

@@ -32,7 +32,7 @@ main:
     url: 'https://www.researcher-app.com/feed/all'
     weight: 90
   - name: Cabibre-web
-    url: 'http://106.113.188.127:64544/'
+    url: 'http://aliyisheng.myds.me:64544/'
     weight: 100  
   - name: RSS
     url: 'https://feedly.com/i/discover'

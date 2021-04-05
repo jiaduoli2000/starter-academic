@@ -1,8 +1,8 @@
 ---
-title: 了解乙型肝炎病毒
+title: 心血管系统概述
 
 event: 教学视频
-event_url: https://www.bilibili.com/video/BV1Dy4y14713/
+event_url: https://www.bilibili.com/video/BV17y4y1b7t7/
 
 location: 哔哩哔哩
 address:
@@ -60,4 +60,5 @@ projects:
 ---
 
 
-<iframe src="//player.bilibili.com/player.html?aid=802203612&bvid=BV1Dy4y14713&cid=313500799&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"width="100%" height="500"> </iframe>
+
+<iframe src="//player.bilibili.com/player.html?aid=799898584&bvid=BV17y4y1b7t7&cid=320148165&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"width="100%" height="500"> </iframe>

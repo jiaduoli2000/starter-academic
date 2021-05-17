@@ -62,3 +62,7 @@ projects:
 
 
 [11 分钟 VATS 右下叶叶切除术](https://www.dxy.cn/bbs/newweb/pc/post/45033647)
+[内窥镜纵隔淋巴结清扫术治疗Ⅰ期肺癌](https://www.dxy.cn/bbs/newweb/pc/post/45029036)
+[左肺下叶切除术](https://www.dxy.cn/bbs/newweb/pc/post/45023313)
+[机器人右肺上叶切除术](https://www.dxy.cn/bbs/newweb/pc/post/45020625)
+[全三维内窥镜微创双瓣膜手术](https://www.dxy.cn/bbs/newweb/pc/post/44999709)

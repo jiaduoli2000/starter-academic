@@ -1,5 +1,5 @@
 ---
-title: 11 分钟 VATS 右下叶叶切除术
+title: 手术视频
 
 event: 手术视频
 event_url: https://www.dxy.cn/bbs/newweb/pc/post/45033647
@@ -61,5 +61,4 @@ projects:
 
 
 
-
-<iframe src="//player.dxy.cn/bbs/newweb/pc/post/45033647)&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"width="100%" height="500"> </iframe>
+[11 分钟 VATS 右下叶叶切除术](https://www.dxy.cn/bbs/newweb/pc/post/45033647)
